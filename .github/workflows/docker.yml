@@ -32,5 +32,5 @@ jobs:
           file: Dockerfile
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/practica_7.1:latest
+            tags: ghcr.io/phoenixdwarf/practica_7.1:latest
             docker.io/edwinnemeguen/practica_7.1:latest
