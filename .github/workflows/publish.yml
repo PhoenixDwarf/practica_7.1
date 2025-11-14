@@ -1,7 +1,0 @@
-# keep the same steps as above until login
-name: Login to GitHub Container Registry (PAT)
-uses: docker/login-action@v3
-with:
-  registry: ghcr.io
-  username: ${{ github.repository_owner }} # or your literal username
-  password: ${{ secrets.GHCR_TOKEN }} # must exist and have the right scopes
